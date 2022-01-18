@@ -14,9 +14,13 @@ Submition steps:
 -  **Short Introduction Of Project**
 -  **Token Icon (upload a SVG file)**
 -  **Eligibility Token(s)**
+-  Twitter, Discord, Medium, URL
+-  Airdrop claim details URL 
 -  Eligibility Conditions 
--  Start Date Of Airdrop
--  End Date of Airdrop
+-  Chain on which token is airdropped
+-  **Start Date Of Airdrop** be as specific as possible. Put Q2 2022/ H1 2022 if unsure
+-  End Date of Airdrop  
+-  Snapshot date & blockheght
 -  API for eligibility checking. We will send through wallet address and please return claimable amount if eligible. And whether user has claimed or not 
 -  Claim Process (If the project is claimable directly within Emeris, include the exact message type for users. If the claim requires redirection to an external site, add in the URL) 
 
