@@ -22,7 +22,10 @@ Submition steps:
 -  End Date of Airdrop  
 -  Snapshot date & blockheght
 -  API for eligibility checking. We will send through wallet address and please return claimable amount if eligible. And whether user has claimed or not 
--  Claim Process (If the project is claimable directly within Emeris, include the exact message type for users. If the claim requires redirection to an external site, add in the URL) 
+-  Claim Process (If the project is claimable directly within Emeris, include the exact message type for users. If the claim requires redirection to an external site, add in the URL)
+       -  Autodrop or not
+       -  Claim on emeris or not
+       -  Do all actions to claim 100% or each action unlocks certain %
 
 For information that is still to be confirmed, put **TBC**. <br/>
 **Bolded Fields** are mandatory.
