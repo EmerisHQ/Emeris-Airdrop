@@ -1,5 +1,5 @@
 {
-    // General project information. Bolded = compulsory
+    // General project information
     "project": "LikeCoin",
     "projectWebsiteUrl": "https://about.like.co/",
     "projectDescription": "LIKE is the native staking and governance token of LikeCoin chain, a Decentralized Publishing Infrastructure to empower content ownership, authenticity, and provenance.", //between 30-150 words
