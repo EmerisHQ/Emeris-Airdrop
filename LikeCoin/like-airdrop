@@ -13,7 +13,7 @@
     
     //link to e.g your Medium blog post that outlines the Airdrop details
     "airdropBlogUrl": "https://blog.like.co/proposal-to-fairdrop-likecoin-to-the-cosmos-community-and-civic-likers-d64d841287d8", 
-    "startDate": "H1 2022", // if unsure, please input Q1/H1 2022
+    "airdropStartDate": "H1 2022", // if unsure, please input Q1/H1 2022
     
     //tokenTicker of addresses for eligibility checking 
     "eligibilityTokens": [
