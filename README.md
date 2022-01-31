@@ -64,8 +64,8 @@ Submit a Pull Request for your airdrop and use this json template:
                  //plaintext - for airdrops that require actions other than autodrop or directClaim
      "claimActions": [
             {
-		  "actionType": "plaintext" | "autodrop" | "directClaim",
                 "action": 1,
+	        "actionType": "plaintext" | "autodrop" | "directClaim",
                 "desc": "Claim Airdrop", //freetype, less than 15 words
                 “actionURL”: “url”,// please include url to external site if needed 
                 "cosmosSDKMessageType":"/publicawesome.stargaze.claim.v1beta1.MsgInitialClaim",// please include exact Message Type for directClaim transactions
@@ -73,6 +73,7 @@ Submit a Pull Request for your airdrop and use this json template:
             },
             {
                 "action": 2,
+	        "actionType": "plaintext" | "autodrop" | "directClaim",
                 "desc": "Stake some airdrop",
 		  “unlockPercentage”: “50”
             }
