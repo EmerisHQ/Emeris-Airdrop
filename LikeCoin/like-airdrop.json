@@ -36,5 +36,4 @@
 ],
 
 //Endpoint to display the user's eligibility status on Emeris. Refer to Eligibility Checking Endpoint section in ReadMe  for required response formatting
-"eligibilityCheckEndpoint": "https://airdrop.like.co/api/claims?type=emeris&address=<address>",
-]
+"eligibilityCheckEndpoint": "https://airdrop.like.co/api/claims?type=emeris&address=<address>"
