@@ -48,13 +48,13 @@
 //plaintext - for airdrops that require actions other than autodrop or directClaim
 "claimActions": [
     {
-        "actionType": "plaintext"
-    ],
+    "actionType": "plaintext"
     "action": 1,
     "desc": "Stake LUM to a validator", //freetype, less than 15 words    
     “unlockPercentage”: “50”
 },
 {
+    "actionType": "plaintext"
     "action": 2,
     "desc": "Vote on a Lum Network Governance proposal",
 		“unlockPercentage”: “50”
