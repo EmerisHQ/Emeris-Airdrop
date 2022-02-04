@@ -21,8 +21,7 @@
     "eligibleTokens": [
         "OSMO",
         "ATOM"
-    ]
-},
+    ],
 //Plaintext to be displayed on Emeris’s Airdrop Details page
 "eligibilityCriteria": [
     {
@@ -60,3 +59,4 @@
 		“unlockPercentage”: “50”
 }
 ]
+},
