@@ -37,7 +37,7 @@
     ],
 	
     // Endpoint to display the user's eligibility status on Emeris. 
-    // Refer to Eligibility Checking Endpoint section in ReadMe  for required response formatting
+    // Refer to Eligibility Checking Endpoint section in ReadMe for required response formatting
     "eligibilityCheckEndpoint": "https://us-central1-lum-network.cloudfunctions.net/airdrop/<address>",
 	
     // AIRDROP CLAIM PROCESS
