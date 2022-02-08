@@ -1,5 +1,5 @@
 {
-    / General project information
+    // GENERAL PROJECT INFORMATION
     // Required upon initial submission
     "project": "LUM Network",
     "projectWebsiteUrl": "https://lum.network/",
@@ -17,8 +17,9 @@
     "airdropBlogUrl": "https://medium.com/lum-network/lum-airdrop-for-atom-stakers-osmo-lps-120d3e472f38", // link to e.g your Medium blog post that outlines the Airdrop details
     "airdropEndDate": "2022-06",// please use the ISO 8601 standard 
 	    
-    // Airdrop eligibility information
+    // AIRDROP ELIGIBILITY INFOMRATION
     "snapshotDate": "2021-09-21", // please use the ISO 8601 standard 
+	    
     // TokenTicker of addresses for eligibility checking 	
     "eligibleTokens": [
         "OSMO",
@@ -26,20 +27,20 @@
     ],
 	    
     // Plaintext to be displayed on Emeris’s Airdrop Details page
-"eligibilityCriteria": [
+    "eligibilityCriteria": [
     {
         "description": "ATOM stakers - minimum 5 ATOM staked, maximum cap at 3,000 ATOM, centralized exchanges and their delegators are excluded from the airdrop "
     },
     {
         "description": "OSMO liquidity providers - minimum 30 OSMO provided as liquidity, maximum cap at 20,000 OSMO, only bonded LPs have been taken into account, only the pools with an OSMO pair have been taken into account"
     }
-],
+    ],
 	
     // Endpoint to display the user's eligibility status on Emeris. 
     // Refer to Eligibility Checking Endpoint section in ReadMe  for required response formatting
     "eligibilityCheckEndpoint": "https://us-central1-lum-network.cloudfunctions.net/airdrop/<address>",
 	
-    // Airdrop’s Claim Process 
+    // AIRDROP CLAIM PROCESS
     // Does your airdrop require unanimous claim action? 
     // True = Multiple actions must be completed in order to unlock airdrop. 
     // False = each action unlocks a certain percentage of the airdrop
@@ -55,12 +56,12 @@
     "actionType": "plaintext",
     "description": "Stake LUM to a validator", // freetype, less than 15 words    
     “unlockPercentage”: “50”
-},
-{
+    },
+    {
     "actionOrder": 2, // optional: include when claim action has to follow a specific order
     "actionType": "plaintext",
     "description": "Vote on a Lum Network Governance proposal",
     “unlockPercentage”: “50”
-}
-]
-},
+    }
+    ]
+    },
