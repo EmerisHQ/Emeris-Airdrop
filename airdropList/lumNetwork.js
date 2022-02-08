@@ -41,26 +41,30 @@
     "eligibilityCheckEndpoint": "https://us-central1-lum-network.cloudfunctions.net/airdrop/<address>",
 	
     // AIRDROP CLAIM PROCESS
-    // Does your airdrop require unanimous claim action? 
-    // True = Multiple actions must be completed in order to unlock airdrop. 
-    // False = each action unlocks a certain percentage of the airdrop
+    /* Does your airdrop require unanimous claim action? 
+       True = Multiple actions must be completed in order to unlock airdrop. 
+       False = each action unlocks a certain percentage of the airdrop */
     "unanimousClaim": true,
 	
     // Actions required to claim the Airdrop
-    /* ActionType: autodrop - airdrop will be automatically sent to users, 
-                   directClaim - users only need to perform one direct claim transaction to claim the entire airdrop, 
-                   plaintext - for airdrops that require actions other than autodrop or directClaim */
+    /* actionType - required: 
+       autodrop - airdrop will be automatically sent to users, 
+       directClaim - users only need to perform one direct claim transaction to claim the entire airdrop, 
+       plaintext - for airdrops that require actions other than autodrop or directClaim
+       
+       actionOrder - optional: include when claim actions have to follow a specific order
+       
+       unlockPercentage - required: if all actions must be completed to unlock airdrop, put 0 for the first few actions and then 100 for the last one */
+	    
     "claimActions": [
        {
-    "actionOrder": 1, // optional: include when claim action has to follow a specific order
     "actionType": "plaintext",
     "description": "Stake LUM to a validator", // freetype, less than 15 words    
     “unlockPercentage”: “50”
     },
     {
-    "actionOrder": 2, // optional: include when claim action has to follow a specific order
     "actionType": "plaintext",
-    "description": "Vote on a Lum Network Governance proposal",
+    "description": "Vote on a Lum Network Governance proposal", // freetype, less than 15 words   
     “unlockPercentage”: “50”
     }
     ]
