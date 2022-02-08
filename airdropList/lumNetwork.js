@@ -47,14 +47,13 @@
     "unanimousClaim": true,
 	
     // Actions required to claim the Airdrop
-    /* actionType - required: 
-       autodrop - airdrop will be automatically sent to users, 
-       directClaim - users only need to perform one direct claim transaction to claim the entire airdrop, 
-       plaintext - for airdrops that require actions other than autodrop or directClaim
+    /* actionType (required): autodrop - airdrop will be automatically sent to users, 
+                              directClaim - users only need to perform one direct claim transaction to claim the entire airdrop, 
+                              plaintext - for airdrops that require actions other than autodrop or directClaim
+			      
+       actionOrder (optional): include when claim actions have to follow a specific order
        
-       actionOrder - optional: include when claim actions have to follow a specific order
-       
-       unlockPercentage - required: if all actions must be completed to unlock airdrop, put 0 for the first few actions and then 100 for the last one */
+       unlockPercentage (required): if all actions must be completed to unlock airdrop, put 0 for the first few actions and then 100 for the last one */
 	    
     "claimActions": [
        {
