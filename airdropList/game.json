@@ -1,0 +1,61 @@
+{
+    // GENERAL PROJECT INFORMATION
+    // Required upon initial submission
+    "project": "GAME",
+    "projectWebsiteUrl": "https://gamenet.one/",
+    "projectDescription": "GAME is a fair and secure distributed game platform that supports the development of new games and makes it easier to trade valuable data such as items, weapons and armor in the game. Items, weapons, armors etc in the games will be distributed to the market as uniquely defined tokens on GAME Hub, enabling transactions that do not require third parties.", // between 30-150 words
+    "chainName": "GAME",
+    "chainID": "GAME-1",
+    "tokenTicker": "GAME",
+    "tokenIcon": "An SVG icon",
+    "airdropStartDate": "H1 2022", // please use the ISO 8601 standard. If unsure, please input Q1/H1 2022
+	    
+    // Not required upon initial submission. Please fill out and re-submit pull request whenever you have the information ready
+    // "twitterUrl": "https://twitter.com/",
+    // "discordUrl": "https://discord.com/",
+    "mediumUrl": "https://medium.com/game",
+    "airdropBlogUrl": "https://medium.com/game/game-airdrop-for-atom-holder-563336c5f32e", //link to e.g your Medium blog post that outlines the Airdrop details
+    // "airdropEndDate": "2022-06",// please use the ISO 8601 standard 
+	    
+    // AIRDROP ELIGIBILITY INFOMRATION
+    "snapshotDate": "2021-02-18", // please use the ISO 8601 standard 
+    "snapshotDate": "2021-11-01", // please use the ISO 8601 standard 
+	    
+    // TokenTicker of addresses for eligibility checking 	
+    "eligibleTokens": [
+        "OSMO",
+        "ATOM",
+        "LUNA",
+        "XPRT"
+    ],
+	    
+    // Plaintext to be displayed on Emeris’s Airdrop Details page
+    "eligibilityCriteria": [
+    {
+        "description": "ATOM holders"
+    }
+    ],
+	
+    // Endpoint to display the user's eligibility status on Emeris. 
+    // Refer to Eligibility Checking Endpoint section in ReadMe for required response formatting
+    "eligibilityCheckEndpoint": "https://airdrop-api.gamenet.one/<address>",
+	
+    // AIRDROP CLAIM PROCESS
+    /* Does your airdrop require unanimous claim action? 
+       True = Multiple actions must be completed in order to unlock airdrop. 
+       False = each action unlocks a certain percentage of the airdrop */
+    "unanimousClaim": true,
+	
+    // Actions required to claim the Airdrop
+    /* actionType (required): autodrop = airdrop will be automatically sent to users, OR
+                              directClaim = users can directly claim the airdrop, OR
+                              plaintext = for airdrops that require actions other than autodrop or directClaim		      
+       actionOrder (optional): include when claim actions have to follow a specific order
+       unlockPercentage (optional): include the percentage each action will unlock when unannimousClaim is false */
+	    
+    "claimActions": [
+    {
+    "actionType": "autodrop"
+    }
+    ]
+},
