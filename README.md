@@ -5,80 +5,78 @@
 Submit a Pull Request for your airdrop and use this json template:
 
 ```java
-
 {
-    // General project information
+    // GENERAL PROJECT INFORMATION
     // Required upon initial submission
-    "project": "Emeris", 
+    "project": "Emeris",
     "projectWebsiteUrl": "https://app.emeris.com/",
-    "projectDescription": "Short intro about project",//between 30-150 words
+    "projectDescription": "Short intro about project", // between 30-150 words
     "chainName": "Cosmos Hub",
-    "chainID": "cosmos",
+    "chainID": "cosmoshub-4",
     "tokenTicker": "ATOM",
     "tokenIcon": "An SVG icon",
-    "airdropStartDate": "1 Feb 2022",// if unsure, please input Q1/H1 2022
-    // Not required upon initial submission. Please fill out and re-submit pull request whenever you have the additional information ready
+    "airdropStartDate": "2021-12-14", // please use the ISO 8601 standard. If unsure, please input Q1/H1 2022
+	    
+    // Not required upon initial submission. Please fill out and re-submit pull request whenever you have the information ready
     "twitterUrl": "https://twitter.com/",
     "discordUrl": "https://discord.com/",
     "mediumUrl": "https://medium.com/",
     "airdropBlogUrl": "<url>", //link to e.g your Medium blog post that outlines the Airdrop details
-    "airdropEndDate": "4 Feb 2022",
-
-    // Airdrop eligibility information
-    "snapshotDate": "25 Nov 2021 19:00 UTC",// please use UTC
-    "snapshotBlockHeight": "<block-height>",
-
-    //tokenTicker of addresses for eligibility checking 	
+    "airdropEndDate": "2022-06",// please use the ISO 8601 standard 
+	    
+    // AIRDROP ELIGIBILITY INFOMRATION
+    "snapshotDate": "2021-09-21", // please use the ISO 8601 standard 
+	    
+    // TokenTicker of addresses for eligibility checking 	
     "eligibleTokens": [
         "OSMO",
-        "ATOM",
-        "LUNA",
-        "XPRT"
+        "ATOM"
     ],
-    
-    //Plaintext to be displayed on Emeris’s Airdrop Details page
-    "eligibilityCriteria": [ 
-        {
-            "Criteria": 1,
-            "desc": "ATOM and OSMO holders, delegators and liquidity providers "
-        },
-        {
-            "Criteria": 2,
-            "desc": "Civic Likers"
-        }
-     ],
-     
-     //Endpoint to display the user's eligibility status on Emeris. 
-     //Refer to Eligibility Checking Endpoint section in ReadMe  for required response formatting
-     "eligibilityCheckEndpoint": "https://eligibilitycheck/<address>",
+	    
+    // Plaintext to be displayed on Emeris’s Airdrop Details page
+    "eligibilityCriteria": [
+    {
+        "description": "ATOM stakers"
+    },
+    {
+        "description": "OSMO liquidity providers"
+    }
+    ],
+	
+    // Endpoint to display the user's eligibility status on Emeris. 
+    // Refer to Eligibility Checking Endpoint section in ReadMe for required response formatting
+    "eligibilityCheckEndpoint": "https://eligibilitycheck/<address>",
+	
+    // AIRDROP CLAIM PROCESS
+    /* Does your airdrop require unanimous claim action? 
+       True = Multiple actions must be completed in order to unlock airdrop. 
+       False = each action unlocks a certain percentage of the airdrop */
+    "unanimousClaim": true,
+	
+    // Actions required to claim the Airdrop
+    /* actionType (required): autodrop = airdrop will be automatically sent to users, OR
+                              directClaim = users can directly claim the airdrop, OR
+                              plaintext = for airdrops that require actions other than autodrop or directClaim		      
+       actionOrder (optional): include when claim actions have to follow a specific order
+       unlockPercentage (optional): include the percentage each action will unlock when unannimousClaim is false */
+	    
+    "claimActions": [
+    {
+    "actionOrder": "1",
+    "actionType": "directClaim",
+    "description": "Claim Airdrop", // freetype, less than 15 words,
+    "cosmosSDKMessageType":"/publicawesome.stargaze.claim.v1beta1.MsgInitialClaim", // please include exact Message Type and other required information for   directClaim transactions
+    “unlockPercentage”: “50”
+    },
+    {
+    "actionOrder": "2",
+    "actionType": "plaintext",
+    "description": "Stake some airdrop", // freetype, less than 15 words   
+    “unlockPercentage”: “50”
+    }
+    ]
+},
 
-     //Airdrop’s Claim Process 
-     //Does your airdrop require unanimous claim action? 
-     //True = Multiple actions must be completed in order to unlock airdrop. 
-     //False = each action unlocks a certain percentage of the airdrop
-     "unanimousClaim": false, 
-		
-     //Actions required to claim the Airdrop
-     //actionType: autodrop - airdrop will be automatically sent to users, 
-                 //directClaim - users only need to perform one direct claim transaction to claim the entire airdrop, 
-                 //plaintext - for airdrops that require actions other than autodrop or directClaim
-     "claimActions": [
-            {
-                "action": 1,
-	        "actionType": "plaintext" | "autodrop" | "directClaim",
-                "desc": "Claim Airdrop", //freetype, less than 15 words
-                “actionURL”: “url”,// please include url to external site if needed 
-                "cosmosSDKMessageType":"/publicawesome.stargaze.claim.v1beta1.MsgInitialClaim",// please include exact Message Type for directClaim transactions
-		  “unlockPercentage”: “50”
-            },
-            {
-                "action": 2,
-	        "actionType": "plaintext" | "autodrop" | "directClaim",
-                "desc": "Stake some airdrop",
-		  “unlockPercentage”: “50”
-            }
-        ]
-}
 ```
        
 **Pre-requisites:**
@@ -105,18 +103,18 @@ Eligible - 200 status code:
 ```java
 { 
 "denom": "ulum",
- "address": "lum13wqpfyc4rl5rqawg6f9xur6gdvgxfhm2ysl35f", 
+"address": "lum13wqpfyc4rl5rqawg6f9xur6gdvgxfhm2ysl35f", 
  
-//chains and amount that user qualifies for   
+//chains and corresponding airdrop amount that user qualifies for   
 "atom": "2141655651",  
 "osmo": "0", 
 
-//airdrop amounts   
+//airdrop amount  
 "total_amount": "2141655651",   
 "claimed_amount": "2141655651", 	
 "unclaimed_amount": "0",
 
-// whether users have claimed 100% of the airdrop or not 	
+// whether user has claimed 100% of the airdrop or not 	
 "claimed": true, 
 
 // each activity unlock a % of airdrop   
