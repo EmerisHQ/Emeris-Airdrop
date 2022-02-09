@@ -1,0 +1,59 @@
+{
+    // GENERAL PROJECT INFORMATION
+    // Required upon initial submission
+    "project": "Bitsong",
+    "projectWebsiteUrl": "https://bitsong.io",
+    "projectDescription": "Short intro about project", // between 30-150 words
+    "chainName": "Bitsong",
+    "chainID": "bitsong-2b",
+    "tokenTicker": "BTSG",
+    "tokenIcon": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/btsg.svg",
+    "airdropStartDate": "2021-12-30", // please use the ISO 8601 standard. If unsure, please input Q1/H1 2022
+	    
+    // Not required upon initial submission. Please fill out and re-submit pull request whenever you have the information ready
+    "twitterUrl": "https://twitter.com/BitSongOfficial",
+    // "discordUrl": "https://discord.com/",
+    "mediumUrl": "https://bitsongofficial.medium.com/",
+    "airdropBlogUrl": "https://bitsongofficial.medium.com/btsg-airdrop-is-here-f321e32966d6", //link to e.g your Medium blog post that outlines the Airdrop details
+    "airdropEndDate": "2022-06",// please use the ISO 8601 standard 
+	    
+    // AIRDROP ELIGIBILITY INFOMRATION
+    // "snapshotDate": "2021-09-21", // please use the ISO 8601 standard 
+	    
+    // TokenTicker of addresses for eligibility checking 	
+    "eligibleTokens": [
+        "OSMO",
+        "ATOM",
+        "JUNO"
+    ],
+	    
+    // Plaintext to be displayed on Emeris’s Airdrop Details page
+    "eligibilityCriteria": [
+    {
+        "description": "ATOM, JUNO and OSMO stakers"
+    }
+    ],
+	
+    // Endpoint to display the user's eligibility status on Emeris. 
+    // Refer to Eligibility Checking Endpoint section in ReadMe for required response formatting
+    // "eligibilityCheckEndpoint": "https://eligibilitycheck/<address>",
+	
+    // AIRDROP CLAIM PROCESS
+    /* Does your airdrop require unanimous claim action? 
+       True = Multiple actions must be completed in order to unlock airdrop. 
+       False = each action unlocks a certain percentage of the airdrop */
+    // "unanimousClaim": true,
+	
+    // Actions required to claim the Airdrop
+    /* actionType (required): autodrop = airdrop will be automatically sent to users, OR
+                              directClaim = users can directly claim the airdrop, OR
+                              plaintext = for airdrops that require actions other than autodrop or directClaim		      
+       actionOrder (optional): include when claim actions have to follow a specific order
+       unlockPercentage (optional): include the percentage each action will unlock when unannimousClaim is false */
+	    
+    "claimActions": [
+    {
+    "actionType": "autodrop"
+    }
+    ]
+},
