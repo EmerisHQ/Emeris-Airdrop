@@ -69,6 +69,7 @@
     "actionType": "directClaim",
     "description": "Claim Airdrop", // freetype, less than 15 words,
     "cosmosSDKMessageType":"/publicawesome.stargaze.claim.v1beta1.MsgInitialClaim", // please include exact Message Type and other required information for   directClaim transactions
+    "payload": {"sender": "SENDER_ADDRESS"},
     “unlockPercentage”: “20”
     },
     {
