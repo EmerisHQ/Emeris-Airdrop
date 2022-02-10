@@ -7,7 +7,7 @@
     "chainName": "Chihuahua",
     "chainID": "chihuahua-1",
     "tokenTicker": "HUAHUA",
-    "tokenIcon": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/huahua.png",
+    "tokenIcon": "https://storage.googleapis.com/emeris/logos/huahua.svg",
     "airdropStartDate": "2021-12-14", // please use the ISO 8601 standard. If unsure, please input Q1/H1 2022
 	    
     // Not required upon initial submission. Please fill out and re-submit pull request whenever you have the information ready
