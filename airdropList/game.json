@@ -12,10 +12,7 @@
     "snapshotDate": "2021-02-18",
     "snapshotDate": "2021-11-01", 
     "eligibleTokens": [
-        "OSMO",
-        "ATOM",
-        "LUNA",
-        "XPRT"
+        "ATOM"
     ],
     "eligibilityCriteria": [
     {
