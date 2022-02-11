@@ -43,30 +43,31 @@
     "description": "Claim Airdrop", 
     "cosmosSDKMessageType":"/publicawesome.stargaze.claim.v1beta1.MsgInitialClaim", 
     "payload": {"sender": "SENDER_ADDRESS"},
-    “unlockPercentage”: “20”
+    "unlockPercentage": "20"
     },
     {
     "actionOrder": "2",
     "actionType": "plaintext",
     "description": "Stake some STARS", 
+    "unlockPercentage": "20"
     },
     {
     "actionOrder": "3",
     "actionType": "plaintext",
     "description": "Vote on a governance proposal", 
-    “unlockPercentage”: “20”
+    "unlockPercentage": "20"
     },
     {
     "actionOrder": "4",
     "actionType": "plaintext",
     "description": "Available to claim at NFT market launch",    
-    “unlockPercentage”: “20”
+    "unlockPercentage": "20"
     },
     {
     "actionOrder": "5",
     "actionType": "plaintext",
     "description": "Available to claim at NFT market launch",    
-    “unlockPercentage”: “20”
+    "unlockPercentage": "20"
     }
     ]
 },
