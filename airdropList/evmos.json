@@ -5,70 +5,12 @@
     "projectWebsiteUrl": "https://evmos.org/",
     "projectDescription": "Evmos is an application-agnostic chain that will be interoperable with the Ethereum Mainnet, EVM-compatible environments, and other BFT chains via IBC, making it easy for users and developers to easily move value between chains.", // between 30-150 words
     "chainName": "EVMOS",
-    // "chainID": "cosmoshub-4",
     "tokenTicker": "EVMOS",
-    "tokenIcon": "An SVG icon",
+    "tokenIcon": "",
     "airdropStartDate": "H1 2022", // please use the ISO 8601 standard. If unsure, please input Q1/H1 2022
 	    
     // Not required upon initial submission. Please fill out and re-submit pull request whenever you have the information ready
     "twitterUrl": "https://twitter.com/EvmosOrg",
     "discordUrl": "https://discord.gg/trje9XuAmy",
     "mediumUrl": "https://evmos.blog/",
-    
- /*
-    "airdropBlogUrl": "<url>", //link to e.g your Medium blog post that outlines the Airdrop details
-    "airdropEndDate": "2022-06",// please use the ISO 8601 standard 
-	    
-    // AIRDROP ELIGIBILITY INFOMRATION
-    "snapshotDate": "2021-09-21", // please use the ISO 8601 standard 
-	    
-    // TokenTicker of addresses for eligibility checking 	
-    "eligibleTokens": [
-        "OSMO",
-        "ATOM"
-    ],
-	    
-    // Plaintext to be displayed on Emeris’s Airdrop Details page
-    "eligibilityCriteria": [
-    {
-        "description": "ATOM stakers"
-    },
-    {
-        "description": "OSMO liquidity providers"
-    }
-    ],
-	
-    // Endpoint to display the user's eligibility status on Emeris. 
-    // Refer to Eligibility Checking Endpoint section in ReadMe for required response formatting
-    "eligibilityCheckEndpoint": "https://eligibilitycheck/<address>",
-	
-    // AIRDROP CLAIM PROCESS
-       Does your airdrop require unanimous claim action? 
-       True = Multiple actions must be completed in order to unlock airdrop. 
-       False = each action unlocks a certain percentage of the airdrop 
-    "unanimousClaim": true,
-	
-    // Actions required to claim the Airdrop
-       actionType (required): autodrop = airdrop will be automatically sent to users, OR
-                              directClaim = users can directly claim the airdrop, OR
-                              plaintext = for airdrops that require actions other than autodrop or directClaim		      
-       actionOrder (optional): include when claim actions have to follow a specific order
-       unlockPercentage (optional): include the percentage each action will unlock when unannimousClaim is false 
-	    
-    "claimActions": [
-    {
-    "actionOrder": "1",
-    "actionType": "directClaim",
-    "description": "Claim Airdrop", // freetype, less than 15 words,
-    "cosmosSDKMessageType":"/publicawesome.stargaze.claim.v1beta1.MsgInitialClaim", // please include exact Message Type and other required information for   directClaim transactions
-    “unlockPercentage”: “50”
-    },
-    {
-    "actionOrder": "2",
-    "actionType": "plaintext",
-    "description": "Stake some airdrop", // freetype, less than 15 words   
-    “unlockPercentage”: “50”
-    }
-    ] 
-    */
 },
