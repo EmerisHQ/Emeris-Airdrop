@@ -3,7 +3,7 @@
     // Required upon initial submission
     "project": "Sommelier",
     "projectWebsiteUrl": "https://sommelier.finance/",
-    "projectDescription": "Sommelier is a bet that Ethereum will be a dominant player in the global economy. Sommelier consists of the Cosmos Stargate SDK, its Tendermint-based consensus layer and a decentralized, bi-directional Ethereum bridge, managed by a global network of validators.", // between 30-150 words
+    "projectDescription": "Sommelier is a DeFi blockchain protocol and bi-directional Ethereum bridge that serves as a co-processor to Ethereum, built on the Cosmos Stargate SDK. The protocol is powered by validators and liquidity providers (LPs) who benefit from a wide array of transaction features, such as portfolio rebalancing and limit orders. Originally created to support multi-chain transactions, Sommelier has predominantly focused and tailored its overall model to tap into Ethereum’s vast DeFi ecosystem, helping support DeFi liquidity and transactions by providing far more efficient throughput. Through automated portfolio rebalancing, LPs can protect themselves against impermanent loss while also having their pool token holdings optimized to ensure they’re always earning the highest yield. The protocol also aggregates and batches transactions, thereby reducing gas fees, providing an attractive alternative to Ethereum’s high transaction costs. As for security, Sommelier uses a decentralized governance mechanism run by validators, ensuring top-notch safety of user funds.", // between 30-150 words
     "chainName": "Sommelier",
     "chainID": "sommelier-3",
     "tokenTicker": "SOMM",
@@ -13,7 +13,7 @@
     // Not required upon initial submission. Please fill out and re-submit pull request whenever you have the information ready
     "twitterUrl": "https://twitter.com/sommfinance",
     "discordUrl": "https://discord.gg/bKwnRPTynU",
-    //"mediumUrl": "https://medium.com/",
+    "mediumUrl": "",
     "airdropBlogUrl": "https://community.sommelier.finance/t/sips-002-a-proposal-for-a-sommelier-token-airdrop-of-somm-to-select-liquidity-providers/272", //link to e.g your Medium blog post that outlines the Airdrop details
     "airdropEndDate": "2022-03-31",// please use the ISO 8601 standard 
 	    
@@ -40,7 +40,7 @@
     /* Does your airdrop require unanimous claim action? 
        True = Multiple actions must be completed in order to unlock airdrop. 
        False = each action unlocks a certain percentage of the airdrop */
-    //"unanimousClaim": true,
+    "unanimousClaim": ,
 	
     // Actions required to claim the Airdrop
     /* actionType (required): autodrop = airdrop will be automatically sent to users, OR

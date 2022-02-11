@@ -3,7 +3,7 @@
     // Required upon initial submission
     "project": "Desmos",
     "projectWebsiteUrl": "https://desmos.network/",
-    "projectDescription": "Desmos is a native blockchain specifically designed for supporting user-centric social networks. Its flagship feature is Desmos Profiles which will serve as a cross-chain social identity. It is similar to Keybase, Google Login or Facebook Login, but decentralized.", // between 30-150 words
+    "projectDescription": "Desmos is a public blockchain protocol built on Cosmos-SDK created to support and build open, decentralized, and censorship-resistant social networks and applications, specifically targeting those that are user-focused. It aims to solve the issues of centralized social networks and their lack of privacy/security through implementing anonymity features and improving social media users’ overall health when communicating and interacting online. Its main feature is Demos Profiles, where users can create and manage their own cross-chain digital identities for proof and verification purposes from a single entity, leveraging IBC allows them to link their decentralized identity to other interconnected blockchains or applications within the Cosmos ecosystem, establishing ownership between accounts across multiple chains. The protocol is powered by the DSM token, which can be staked to secure the network in return for platform transaction fees and inflation rewards, as well as a governance mechanism for its holders.", // between 30-150 words
     "chainName": "Desmos",
     "chainID": "desmos-mainnet",
     "tokenTicker": "DSM",
@@ -71,13 +71,10 @@
     {
     "actionType": "plaintext",
     "description": "Create a Desmos wallet", // freetype, less than 15 words,
-    //"cosmosSDKMessageType":"/publicawesome.stargaze.claim.v1beta1.MsgInitialClaim", // please include exact Message Type and other required information for   directClaim transactions
-    //“unlockPercentage”: “50”
     },
     {
     "actionType": "plaintext",
     "description": "Connect your eligible account(s) to your Desmos profile", // freetype, less than 15 words   
-    //“unlockPercentage”: “50”
     }
     ]
 },
