@@ -3,7 +3,7 @@
     // Required upon initial submission
     "project": "Stargaze",
     "projectWebsiteUrl": "https://www.stargaze.zone/",
-    "projectDescription": "Stargaze is a Cosmos zone (layer 1 proof-of-stake blockchain). It is the base layer node software for the Stargaze NFT Marketplace.", // between 30-150 words
+    "projectDescription": "Stargaze is a decentralized protocol and NFT marketplace on Cosmos, leveraging a social network concept in the blockchain space. The platform utilizes a free, weighted, and decentralized social graph based on social token ownership, where various types of content are distributed through NFTs. Customers can leverage this social graph to develop feeds to organize their content. Social tokens are where the network offers its key utility and they are minted through a bonding curve model, allowing users to customize them in a variety of ways. STARS is the platform’s native token, in addition to being the reserve asset for all social tokens. Social tokens can be staked, STARS are distributed to node validators as rewards in return for securing the network. Stargaze is also IBC-enabled, allowing for broader communication and interoperability between its social tokens and other chains within the Cosmos ecosystem.", // between 30-150 words
     "chainName": "Stargaze",
     "chainID": "stargaze-1",
     "tokenTicker": "STAR",
@@ -13,9 +13,9 @@
     // Not required upon initial submission. Please fill out and re-submit pull request whenever you have the information ready
     "twitterUrl": "https://twitter.com/StargazeZone",
     "discordUrl": "discord.gg/QeJWCrE",
-    // "mediumUrl": "https://medium.com/",
+    "mediumUrl": "",
     "airdropBlogUrl": "https://mirror.xyz/stargazezone.eth/h9Bc7jODUrYB1Jw4mve3QEGVkBwBsyVebN6NP7tRl_Y", //link to e.g your Medium blog post that outlines the Airdrop details
-    // "airdropEndDate": "2022-06",// please use the ISO 8601 standard 
+    "airdropEndDate": "H2 2022",// please use the ISO 8601 standard 
 	    
     // AIRDROP ELIGIBILITY INFOMRATION
     "snapshotDate": "2021-10-11", // please use the ISO 8601 standard 
