@@ -31,12 +31,12 @@
     {
     "actionType": "plaintext",
     "description": "Stake LUM to a validator", 
-    “unlockPercentage”: “50”
+    “unlockPercentage”: 50
     },
     {
     "actionType": "plaintext",
     "description": "Vote on a Lum Network Governance proposal",
-    “unlockPercentage”: “50”
+    “unlockPercentage”: 50
     }
     ]
     },
