@@ -11,7 +11,7 @@
     "snapshotDate": "2021-12-13", 
     "eligibleTokens": [
         "JUNO",
-        "ATOM,
+        "ATOM",
         "OSMO"
     ],
     "eligibilityCriteria": [
