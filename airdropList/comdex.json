@@ -54,7 +54,7 @@
     "claimActions": [
     {
     "actionType": "plaintext",
-    "description": "Navigate to the website, submit your address, accept the disclaimer and claim the airdrop. Your airdrop will be unlocked entirely in five phases. The first phase is when you are claiming your airdrop for the first time, and your subsequent four phases will be unlocked automatically in every 3-months.", // freetype, less than 15 words,
+    "description": "Navigate to the website, submit your address, accept the disclaimer and claim the airdrop. Your airdrop will be unlocked entirely in five phases. The first phase is when you are claiming your airdrop for the first time, and your subsequent four phases will be unlocked automatically in every 3-months.", // freetype, less than 15 words
     “unlockPercentage”: “20”
     }
     ]
