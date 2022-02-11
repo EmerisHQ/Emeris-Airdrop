@@ -11,7 +11,8 @@
     "mediumUrl": "https://bitsongofficial.medium.com/",
     "airdropBlogUrl": "https://bitsongofficial.medium.com/btsg-airdrop-is-here-f321e32966d6", 
     "airdropEndDate": "2022-06",	 
-    "snapshotDate": "",   	
+    "airdropBlogUrl": "https://bitsongofficial.medium.com/btsg-airdrop-is-here-f321e32966d6", 
+    "airdropEndDate": "2022-06",
     "eligibleTokens": [
         "OSMO",
         "ATOM",
@@ -21,7 +22,7 @@
     {
         "description": "ATOM, JUNO and OSMO stakers"
     }
-    ],    
+    ],
     "claimActions": [
     {
     "actionType": "autodrop"

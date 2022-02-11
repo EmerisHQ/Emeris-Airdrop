@@ -11,8 +11,7 @@
     "discordUrl": "https://discord.com/invite/W4DQ6peZZZ",
     "mediumUrl": "https://blog.like.co/",
     "airdropBlogUrl": "https://blog.like.co/proposal-to-fairdrop-likecoin-to-the-cosmos-community-and-civic-likers-d64d841287d8",
-    "airdropEndDate": "",
-    "snapshotDate": "2021-11-25", 
+    "snapshotDate": "2021-11-30", 
     "eligibleTokens": [
         "OSMO",
         "ATOM"
@@ -25,4 +24,5 @@
         "description": "Civic Liker"
     }
     ],
+   "eligibilityCheckEndpoint": "https://airdrop.like.co/api/claims?type=emeris&address=<address>"
 },
