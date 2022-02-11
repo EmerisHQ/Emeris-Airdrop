@@ -29,7 +29,7 @@
         "LIKE",
         "LUNA",
         "NGM",
-        "REGEN""
+        "REGEN"
     ],
     "eligibilityCriteria": [
     {
@@ -39,7 +39,7 @@
         "description": "OSMO liquidity providers"
     }
     ],
-    "eligibilityCheckEndpoint": "https://api.airdrop.desmos.network/users/<address
+    "eligibilityCheckEndpoint": "https://api.airdrop.desmos.network/users/<address>"
     "unanimousClaim": true,
     "claimActions": [
     {
