@@ -3,7 +3,7 @@
     // Required upon initial submission
     "project": "GAME",
     "projectWebsiteUrl": "https://gamenet.one/",
-    "projectDescription": "GAME is a fair and secure distributed game platform that supports the development of new games and makes it easier to trade valuable data such as items, weapons and armor in the game. Items, weapons, armors etc in the games will be distributed to the market as uniquely defined tokens on GAME Hub, enabling transactions that do not require third parties.", // between 30-150 words
+    "projectDescription": "GAME is a fair and secure distributed game platform that supports the development of new games and makes it easier to trade valuable data such as items, weapons, and armor in the game. These in-game items will be distributed to the market as uniquely defined tokens on GAME Hub, enabling transactions without third parties. Unlike the conventional centralized game structure, GAME creates new value for data in a game virtual space because token ownership does not belong to the game operator. Ordinal blockchain games built on Ethereum are not fast enough to achieve a good user experience. GAME's Cosmos-built PoS blockchain platform realizes high throughput to significantly improve usability. It's also highly scalable, flexible, and secure, with IBC enabled to connect to other Cosmos ecosystem chains.", // between 30-150 words
     "chainName": "GAME",
     "chainID": "GAME-1",
     "tokenTicker": "GAME",
@@ -44,7 +44,6 @@
     /* Does your airdrop require unanimous claim action? 
        True = Multiple actions must be completed in order to unlock airdrop. 
        False = each action unlocks a certain percentage of the airdrop */
-    "unanimousClaim": true,
 	
     // Actions required to claim the Airdrop
     /* actionType (required): autodrop = airdrop will be automatically sent to users, OR
