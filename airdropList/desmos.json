@@ -1,31 +1,23 @@
 {
-    // GENERAL PROJECT INFORMATION
-    // Required upon initial submission
     "project": "Desmos",
     "projectWebsiteUrl": "https://desmos.network/",
-    "projectDescription": "Desmos is a public blockchain protocol built on Cosmos-SDK created to support and build open, decentralized, and censorship-resistant social networks and applications, specifically targeting those that are user-focused. It aims to solve the issues of centralized social networks and their lack of privacy/security through implementing anonymity features and improving social media users’ overall health when communicating and interacting online. Its main feature is Demos Profiles, where users can create and manage their own cross-chain digital identities for proof and verification purposes from a single entity, leveraging IBC allows them to link their decentralized identity to other interconnected blockchains or applications within the Cosmos ecosystem, establishing ownership between accounts across multiple chains. The protocol is powered by the DSM token, which can be staked to secure the network in return for platform transaction fees and inflation rewards, as well as a governance mechanism for its holders.", // between 30-150 words
+    "projectDescription": "Desmos is a public blockchain protocol built on Cosmos-SDK created to support and build open, decentralized, and censorship-resistant social networks and applications, specifically targeting those that are user-focused. It aims to solve the issues of centralized social networks and their lack of privacy/security through implementing anonymity features and improving social media users’ overall health when communicating and interacting online. Its main feature is Demos Profiles, where users can create and manage their own cross-chain digital identities for proof and verification purposes from a single entity, leveraging IBC allows them to link their decentralized identity to other interconnected blockchains or applications within the Cosmos ecosystem, establishing ownership between accounts across multiple chains. The protocol is powered by the DSM token, which can be staked to secure the network in return for platform transaction fees and inflation rewards, as well as a governance mechanism for its holders.",
     "chainName": "Desmos",
     "chainID": "desmos-mainnet",
     "tokenTicker": "DSM",
     "tokenIcon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.png",
-    "airdropStartDate": "2021-11-25", // please use the ISO 8601 standard. If unsure, please input Q1/H1 2022
-	    
-    // Not required upon initial submission. Please fill out and re-submit pull request whenever you have the information ready
+    "airdropStartDate": "2021-11-25", 
     "twitterUrl": "https://twitter.com/DesmosNetwork",
     "discordUrl": "https://discord.desmos.network/",
     "mediumUrl": "https://medium.com/desmosnetwork",
-    "airdropBlogUrl": "https://medium.com/desmosnetwork/desmos-airdrop-faqs-d5107dd34f17", //link to e.g your Medium blog post that outlines the Airdrop details
-    "airdropEndDate": "2022-02-26",// please use the ISO 8601 standard 
-	    
-    // AIRDROP ELIGIBILITY INFOMRATION
+    "airdropBlogUrl": "https://medium.com/desmosnetwork/desmos-airdrop-faqs-d5107dd34f17", 
+    "airdropEndDate": "2022-02-26",
     "snapshotDate": [
       "2021-08-31",
       "2021-09-21",
       "2021-09-30",
       "2021-10-31"
-    ], // please use the ISO 8601 standard 
-	    
-    // TokenTicker of addresses for eligibility checking 	
+    ], 
     "eligibleTokens": [
         "OSMO",
         "ATOM",
@@ -37,10 +29,8 @@
         "LIKE",
         "LUNA",
         "NGM",
-        "REGEN""
+        "REGEN"
     ],
-	    
-    // Plaintext to be displayed on Emeris’s Airdrop Details page
     "eligibilityCriteria": [
     {
         "description": "ATOM, OSMO, AKT, BAND, CRO, JUNO, KAVA, LIKE, LUNA, NGA, REGEN holders"
@@ -49,32 +39,16 @@
         "description": "OSMO liquidity providers"
     }
     ],
-	
-    // Endpoint to display the user's eligibility status on Emeris. 
-    // Refer to Eligibility Checking Endpoint section in ReadMe for required response formatting
-    "eligibilityCheckEndpoint": "https://api.airdrop.desmos.network/users/<address>",
-	
-    // AIRDROP CLAIM PROCESS
-    /* Does your airdrop require unanimous claim action? 
-       True = Multiple actions must be completed in order to unlock airdrop. 
-       False = each action unlocks a certain percentage of the airdrop */
+    "eligibilityCheckEndpoint": "https://api.airdrop.desmos.network/users/<address>"
     "unanimousClaim": true,
-	
-    // Actions required to claim the Airdrop
-    /* actionType (required): autodrop = airdrop will be automatically sent to users, OR
-                              directClaim = users can directly claim the airdrop, OR
-                              plaintext = for airdrops that require actions other than autodrop or directClaim		      
-       actionOrder (optional): include when claim actions have to follow a specific order
-       unlockPercentage (optional): include the percentage each action will unlock when unannimousClaim is false */
-	    
     "claimActions": [
     {
     "actionType": "plaintext",
-    "description": "Create a Desmos wallet", // freetype, less than 15 words,
+    "description": "Create a Desmos wallet", 
     },
     {
     "actionType": "plaintext",
-    "description": "Connect your eligible account(s) to your Desmos profile", // freetype, less than 15 words   
+    "description": "Connect your eligible account(s) to your Desmos profile" 
     }
     ]
 },

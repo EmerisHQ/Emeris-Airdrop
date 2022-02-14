@@ -1,29 +1,19 @@
 {
-    // GENERAL PROJECT INFORMATION
-    // Required upon initial submission
     "project": "Chihuahua",
     "projectWebsiteUrl": "https://chihuahua.wtf",
-    "projectDescription": "Chihuahua is the next evolution in crypto dog meme coin technology, functioning as a Proof-of-Stake blockchain built using Cosmos SDK and Tendermint consensus. The chain is also IBC-enabled, making it compatible with other chains that leverage IBC in Cosmos and allowing for seamless interchain communication and fluid transfer of assets across networks. The platform was designed to incorporate a more efficient and environmentally friendly blockchain design framework, reducing energy consumption while enabling high efficiency and speeds for its users. HUAHUA is the chain’s native token that facilitates governance through its staking mechanism. Users who stake the token help power the network and, in return, receive rewards in the form of annual percentage rates (APRs), voting rights to influence the project’s future direction, and exclusive access to a Community Pool. This underlying system and mechanism ensure the project is community-driven to maintain its decentralized nature.", // between 30-150 words
+    "projectDescription": "Chihuahua is the next evolution in crypto dog meme coin technology, functioning as a Proof-of-Stake blockchain built using Cosmos SDK and Tendermint consensus. The chain is also IBC-enabled, making it compatible with other chains that leverage IBC in Cosmos and allowing for seamless interchain communication and fluid transfer of assets across networks. The platform was designed to incorporate a more efficient and environmentally friendly blockchain design framework, reducing energy consumption while enabling high efficiency and speeds for its users. HUAHUA is the chain’s native token that facilitates governance through its staking mechanism. Users who stake the token help power the network and, in return, receive rewards in the form of annual percentage rates (APRs), voting rights to influence the project’s future direction, and exclusive access to a Community Pool. This underlying system and mechanism ensure the project is community-driven to maintain its decentralized nature.", 
     "chainName": "Chihuahua",
     "chainID": "chihuahua-1",
     "tokenTicker": "HUAHUA",
     "tokenIcon": "https://storage.googleapis.com/emeris/logos/huahua.svg",
-    "airdropStartDate": "2021-12-14", // please use the ISO 8601 standard. If unsure, please input Q1/H1 2022
-	    
-    // Not required upon initial submission. Please fill out and re-submit pull request whenever you have the information ready
+    "airdropStartDate": "2021-12-14", 
     "twitterUrl": "https://twitter.com/ChihuahuaChain",
-	    
-    // AIRDROP ELIGIBILITY INFOMRATION
-    "snapshotDate": "2021-12-13", // please use the ISO 8601 standard 
-	    
-    // TokenTicker of addresses for eligibility checking 	
+    "snapshotDate": "2021-12-13", 
     "eligibleTokens": [
         "JUNO",
-        "ATOM,
+        "ATOM",
         "OSMO"
     ],
-	    
-    // Plaintext to be displayed on Emeris’s Airdrop Details page
     "eligibilityCriteria": [
     {
         "description": "ATOM stakers"
@@ -35,14 +25,6 @@
         "description": "OSMO stakers"
     }
     ],
-	
-    // Actions required to claim the Airdrop
-    /* actionType (required): autodrop = airdrop will be automatically sent to users, OR
-                              directClaim = users can directly claim the airdrop, OR
-                              plaintext = for airdrops that require actions other than autodrop or directClaim		      
-       actionOrder (optional): include when claim actions have to follow a specific order
-       unlockPercentage (optional): include the percentage each action will unlock when unannimousClaim is false */
-	    
     "claimActions": [
     {
     "actionType": "autodrop"
