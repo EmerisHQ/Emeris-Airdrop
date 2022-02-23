@@ -34,7 +34,7 @@
             "description": "Stargaze validator stakers on Regen Network"
         }
     ],
-    "eligibilityCheckEndpoint": "https://rest.stargaze.publicawesome.dev/stargaze/claim/v1beta1/claim_record/{address}",
+    "eligibilityCheckEndpoint": "https://rest.stargaze.publicawesome.dev/stargaze/claim/v1beta1/claim_record/<address>",
     "unanimousClaim": false,
     "claimActions": [
         {
