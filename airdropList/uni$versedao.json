@@ -1,0 +1,21 @@
+{
+    "project": "The Uni$VERSe Dao",
+    "projectWebsiteUrl": "https://universedao.io/",
+    "projectDescription": "Decentralized reserve currency for the Interchain. First cross-chain financial infrastructure built on Cosmos and governed by the community",
+    "tokenTicker": "VERSE",
+    "airdropStartDate": "H1 2022",
+    "twitterUrl": "https://twitter.com/theuniversedao",
+    "discordUrl": "https://discord.gg/universedao",
+    "mediumUrl": "https://universedao.medium.com/",
+    "snapshotDate": "2022-02-28",
+    "eligibleTokens": [
+        "JUNO",
+        "ATOM",
+        "HUAHUA"
+    ],
+    "eligibilityCriteria": [
+        {
+            "description": "Stakers who staked at least 20 JUNO, 100 OSMO or 100,000 HUAHUA"
+        }
+    ]
+},

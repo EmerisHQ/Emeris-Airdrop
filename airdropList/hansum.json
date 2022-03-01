@@ -1,0 +1,27 @@
+{
+    "project": "Hansum",
+    "projectWebsiteUrl": "https://app.emeris.com/",
+    "projectDescription": "Hansum is a playful Cosmos community-led effort to bring you the Most Hansum Token You Will Ever Hodl. Hansum will run as a Decentralized Autonomous Organization (DAO) and token holders — their ideas and proposals — are what will make Hansum successful. We envision the Hansum members of this community to contribute opinions and feedback where possible. Almost every piece of this DAO is intended to be developed from the ground up. From use-case to long-term tokenomic changes, we encourage every DAO member to feel empowered to devise new strategies, marketing proposals, and community engagement ideas. Ultimately, it’s the token holders that will vote and help plan to implement new features for Hansum.", 
+    "tokenTicker": "HANSUM",
+    "airdropStartDate": "H1 2022",
+    "twitterUrl": "https://twitter.com/HANSUMtoken",
+    "mediumUrl": "https://medium.com/@hansumteam",
+    "airdropBlogUrl": "https://medium.com/@hansumteam/hansum-token-distribution-e6369f2d814f",
+    "snapshotDate": "2022-03-01",
+    "eligibleTokens": [
+        "OSMO",
+        "ATOM",
+        "JUNO"
+    ],
+    "eligibilityCriteria": [
+        {
+            "description": "ATOM stakers"
+        },
+        {
+            "description": "OSMO liquidity pool providers"
+        },
+        {
+            "description": "JUNO stakers and liquidity pool providers"
+        }
+    ]
+},
