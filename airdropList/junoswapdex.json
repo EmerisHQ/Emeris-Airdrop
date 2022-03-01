@@ -1,0 +1,25 @@
+{
+    "project": "JunoSwap",
+    "projectWebsiteUrl": "https://junoswap.com/",
+    "projectDescription": "JunoSwap is the first ever interchain decentralized exchange focussed on CW-20 (CosmWasm) asset adoption. Built from scratch on the public permission-less Juno Network.",
+    "tokenTicker": "RAW",
+    "airdropStartDate": "H1 2022",
+    "twitterUrl": "https://twitter.com/JunoNetwork",
+    "discordUrl": "https://discord.gg/Juno",
+    "snapshotDate": [
+        "2022-02-07",
+        "2022-02-13"
+    ],
+    "eligibleTokens": [
+        "JUNO",
+        "ATOM"
+    ],
+    "eligibilityCriteria": [
+        {
+            "description": "JUNO & ATOM stakers"
+        },
+        {
+            "description": "JunoSwapDex and Osmosis LPs"
+        }
+    ]
+},
