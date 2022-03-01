@@ -1,0 +1,24 @@
+{
+    "project": "Racoon",
+    "projectWebsiteUrl": "https://www.racoon.supply/",
+    "projectDescription": "Racøøn will grant access to unique AI generated NFTs on multiple Cosmos chains.",
+    "tokenTicker": "RAC",
+    "airdropStartDate": "2022-02-12",
+    "twitterUrl": "https://twitter.com/RacoonSupply",
+    "discordUrl": "https://discord.gg/QV5cDdxn4q",
+    "airdropEndDate": "2022-02-28",
+    "snapshotDate": "2022-02-09",
+    "eligibleTokens": [
+        "JUNO"
+    ],
+    "eligibilityCriteria": [
+        {
+            "description": "JUNO stakers - minimum 10 JUNO staked"
+        }
+    ],
+    "claimActions": [
+        {
+            "actionType": "autodrop"
+        }
+    ]
+},
