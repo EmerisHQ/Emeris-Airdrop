@@ -66,13 +66,14 @@ Submit a Pull Request for your airdrop and use this json template:
     "actionType": "directClaim",
     "description": "Claim Airdrop", // freetype, less than 15 words,
     "cosmosSDKMessageType":"/publicawesome.stargaze.claim.v1beta1.MsgInitialClaim", // please include exact Message Type and other required information for directClaim transactions
-    “unlockPercentage”: “50”
+    "websiteURL": "website to claim airdrop",
+    "unlockPercentage": "50"
     },
     {
     "actionOrder": "2",
     "actionType": "plaintext",
     "description": "Stake some airdrop", // freetype, less than 15 words   
-    “unlockPercentage”: “50”
+    "unlockPercentage": "50"
     }
     ]
 },
