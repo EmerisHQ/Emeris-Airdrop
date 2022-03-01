@@ -1,0 +1,46 @@
+{
+    "project": "Shade",
+    "projectWebsiteUrl": "https://shadeprotocol.io/",
+    "projectDescription": "Shade Protocol is an array of connected privacy-preserving DeFi applications built on Secret Network. Launching on Shade Protocol is Silk: an algorithmic stablecoin native to Secret Network with transactional privacy by default.",
+    "chainName": "Shade",
+    "chainID": "secret-4",
+    "tokenTicker": "SHD",
+    "tokenIcon": "An SVG icon",
+    "airdropStartDate": "2022-02-21",
+    "twitterUrl": "https://twitter.com/Shade_Protocol?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+    "discordUrl": "https://discord.gg/RSBRMfQWFP/",
+    "mediumUrl": "https://medium.com/@shadeprotocoldevs",
+    "airdropBlogUrl": "https://medium.com/@shadeprotocoldevs/shade-protocol-airdrop-calculator-8f9d740dfb2a",
+    "airdropEndDate": "H2 2022",
+    "snapshotDate": [
+        "2021-11-07",
+        "2021-12-13"
+    ],
+    "eligibleTokens": [
+        "LUNA",
+        "ATOM",
+        "SCRT"
+    ],
+    "eligibilityCriteria": [
+        {
+            "description": "ATOM, LUNA, SCRT stakers"
+        }
+    ],
+    "eligibilityCheckEndpoint": "https://eligibilitycheck/<address>",
+    "unanimousClaim": false,
+    "claimActions": [
+        {
+            "actionOrder": "1",
+            "actionType": "plaintext",
+            "description": "Navigate to the claim airdrop website, link your eligible address, create permits, select your master account and claim airdrop",
+            "websiteURL": "https://airdrop.shadeprotocol.io/",
+            "unlockPercentage": "20"
+        },
+        {
+            "actionOrder": "2",
+            "actionType": "plaintext",
+            "description": "Claim at Mainnet Launch",
+            "unlockPercentage": "80"
+        }
+    ]
+},
