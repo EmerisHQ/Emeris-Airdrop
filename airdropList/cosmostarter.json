@@ -1,0 +1,17 @@
+{
+    "project": "Cosmostarter",
+    "projectWebsiteUrl": "https://cosmostarter.io/",
+    "projectDescription": "The premier accelerator on Cosmos - growing the Cosmos ecosystem of investors and best-in-class projects. We help launch projects on Cosmos, an emerging network with a focus on revolutionizing blockchain interoperability and sovereignty. Cosmos is among the most (if not the most) undervalued ecosystems right now. The community of devs is world-class and the ecosystem speaks for itself.",
+    "tokenTicker": "CMCS",
+    "airdropStartDate": "H1 2022",
+    "twitterUrl": "https://twitter.com/Cosmostarterio",
+    "mediumUrl": "https://medium.com/@Cosmostarterio",
+    "eligibleTokens": [
+        "ATOM"
+    ],
+    "eligibilityCriteria": [
+        {
+            "description": "early ATOM community members"
+        }
+    ]
+},
