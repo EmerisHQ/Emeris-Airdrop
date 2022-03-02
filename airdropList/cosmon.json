@@ -1,0 +1,20 @@
+{
+    "project": "Cosmon",
+    "projectWebsiteUrl": "https://play.cosmon.ki/",
+    "projectDescription": "Cosmon is an NFT-powered community comprised of uniques digital collectibles that lives on the Cosmos blockchain. All items in Cosmon are backed by the best assets of the Cosmos ecosystem.",
+    "airdropStartDate": "H1 2022",
+    "twitterUrl": "https://twitter.com/PlayCosmon",
+    "discordUrl": "https://discord.com/invite/HtnhCXzP9a",
+    "eligibleTokens": [
+        "OSMO",
+        "ATOM"
+        "CMDX",
+        "XPRT",
+        "JUNO"
+    ],
+    "eligibilityCriteria": [
+        {
+            "description": "JUNO, OSMO, ATOM, XPRT, CMDX stakers"
+        }
+    ]
+},

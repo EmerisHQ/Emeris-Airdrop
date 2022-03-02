@@ -1,0 +1,28 @@
+{
+    "project": "Diffusion Finance",
+    "projectWebsiteUrl": "https://t.co/XTo8Vbq0az",
+    "projectDescription": "Diffusion is a Uniswap v2 fork. It’ll be one of the first AMMs for Evmos, an EVM on Cosmos that leverages the Cosmos SDK to enable use cases around composability, interoperability, and fast-finality. It seeks to unlock the potential of combining smart-contract based applications with the specific capabilities of other Cosmos chains to drive a new set of use cases in DeFi and beyond.",
+    "tokenTicker": "DIFF",
+    "airdropStartDate": "2022-03",
+    "twitterUrl": "https://twitter.com/diffusion_fi",
+    "discordUrl": "hhttps://t.co/pbgAvcvrJy",
+    "mediumUrl": "https://medium.com/@diffusion_fi",
+    "airdropBlogUrl": "https://medium.com/@diffusion_fi/diffusion-tokenomics-ae7ee46e36c7",
+    "snapshotDate": "2021-12-31",
+    "eligibleTokens": [
+        "OSMO",
+        "UNI",
+        "EVMOS"
+    ],
+    "eligibilityCriteria": [
+        {
+            "description": "Uniswap Community - UNI token holders and addresses that got rekt by gas fees nteracting with Uniswap"
+        },
+        {
+            "description": "Addresses that stake OSMMO to@binaryholdings and @frensvalidator"
+        },
+        {
+            "description": "Stakers on Evmos and Evmos LPs on Osmosis"
+        }
+    ]
+},

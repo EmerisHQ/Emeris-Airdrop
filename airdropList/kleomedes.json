@@ -1,0 +1,19 @@
+{
+    "project": "Kleomedes",
+    "projectWebsiteUrl": "https://kleomed.es/",
+    "projectDescription": "Kleomedes is the first ever decentralized enterprise. We will give new meaning to the concept of community and teamwork, building an innovative way to conceive unique products. In essence, Kleomedes is a business venture built for and led by its community.",
+    "tokenTicker": "KLMD",
+    "airdropStartDate": "H1 2022",
+    "twitterUrl": "https://twitter.com/KleomedesDAO",
+    "discordUrl": "https://discord.gg/ZTT4jTGTJ7",
+    "airdropBlogUrl": "https://twitter.com/KleomedesDAO/status/1497675822701760512",
+    "snapshotDate": "2022-03-02",
+    "eligibleTokens": [
+        "JUNO"
+    ],
+    "eligibilityCriteria": [
+        {
+            "description": "JUNO stakers who delegated to KleomedesDao"
+        }
+    ]
+},
