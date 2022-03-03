@@ -1,7 +1,7 @@
 {
     "project": "LUM Network",
     "projectWebsiteUrl": "https://lum.network/",
-    "projectDescription": "Sommelier is a DeFi blockchain protocol and bi-directional Ethereum bridge that serves as a co-processor to Ethereum, built on the Cosmos Stargate SDK. The protocol is powered by validators and liquidity providers (LPs) who benefit from a wide array of transaction features, such as portfolio rebalancing and limit orders. Originally created to support multi-chain transactions, Sommelier has predominantly focused and tailored its overall model to tap into Ethereum’s vast DeFi ecosystem, helping support DeFi liquidity and transactions by providing far more efficient throughput. Through automated portfolio rebalancing, LPs can protect themselves against impermanent loss while also having their pool token holdings optimized to ensure they’re always earning the highest yield. The protocol also aggregates and batches transactions, thereby reducing gas fees, providing an attractive alternative to Ethereum’s high transaction costs. As for security, Sommelier uses a decentralized governance mechanism run by validators, ensuring top-notch safety of user funds.",
+    "projectDescription": "Lum Network introduces the first decentralized protocol for businesses to build authentic trust with their customers.",
     "chainName": "Lum Network",
     "chainID": "lum-network-1",
     "tokenTicker": "LUM",
