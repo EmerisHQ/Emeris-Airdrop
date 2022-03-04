@@ -1,0 +1,23 @@
+{
+    "project": "Fortis Oeconomia",
+    "projectWebsiteUrl": "https://www.fortisoeconomia.com/",
+    "projectDescription": "Fortis Oeconomia is defined by the belief in equality. We serve to create a system in which all are free and able to benefit from financial opportunities, and we ensure that no one, under no circumstances, would be entitled to an unjust superiority over the others.",
+    "tokenTicker": "FOT",
+    "airdropStartDate": "2022-03-28",
+    "twitterUrl": "https://twitter.com/Fortisoeconomia",
+    "mediumUrl": "https://fortisoeconomia.medium.com",
+    "airdropBlogUrl": "https://fortisoeconomia.medium.com/fortis-oeconomia-airdrop-announcement-ec0990219184", 
+    "snapshotDate": [
+        "2021-12-14",
+        "2021-12-15"
+    ],
+    "eligibleTokens": [
+        "JUNO",
+        "ATOM"
+    ],
+    "eligibilityCriteria": [
+    {
+        "description": "ATOM, JUNO stakers"
+    }
+    ]
+},
