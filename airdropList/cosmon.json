@@ -7,7 +7,7 @@
     "discordUrl": "https://discord.com/invite/HtnhCXzP9a",
     "eligibleTokens": [
         "OSMO",
-        "ATOM"
+        "ATOM",
         "CMDX",
         "XPRT",
         "JUNO"
@@ -17,4 +17,4 @@
             "description": "JUNO, OSMO, ATOM, XPRT, CMDX stakers"
         }
     ]
-},
+}
