@@ -76,7 +76,7 @@ Submit a Pull Request for your airdrop and use this json template:
     "unlockPercentage": "50"
     }
     ]
-},
+}
 
 ```
        
