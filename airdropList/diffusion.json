@@ -3,6 +3,7 @@
     "projectWebsiteUrl": "https://t.co/XTo8Vbq0az",
     "projectDescription": "Diffusion is a Uniswap v2 fork. It’ll be one of the first AMMs for Evmos, an EVM on Cosmos that leverages the Cosmos SDK to enable use cases around composability, interoperability, and fast-finality. It seeks to unlock the potential of combining smart-contract based applications with the specific capabilities of other Cosmos chains to drive a new set of use cases in DeFi and beyond.",
     "tokenTicker": "DIFF",
+    "tokenIcon": "https://pbs.twimg.com/profile_images/1484221525666508806/sZ0ATBDy_400x400.jpg",
     "airdropStartDate": "2022-03",
     "twitterUrl": "https://twitter.com/diffusion_fi",
     "discordUrl": "hhttps://t.co/pbgAvcvrJy",
@@ -25,4 +26,4 @@
             "description": "Stakers on Evmos and Evmos LPs on Osmosis"
         }
     ]
-},
+}

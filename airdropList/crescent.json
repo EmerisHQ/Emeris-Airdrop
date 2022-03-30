@@ -1,0 +1,20 @@
+{
+    "project": "Crescent",
+    "projectWebsiteUrl": "https://crescent.network/",
+    "projectDescription": "Crescent, the newest DeFi Hub that unlocks the potential of Gravity DEX, realizing Inter-blockchain capabilities to open limitless possibilities for decentralized finance", 
+    "tokenTicker": "CRE",
+    "tokenIcon": "https://pbs.twimg.com/profile_images/1500704987990880256/PeQ_j_ca_400x400.jpg",
+    "airdropStartDate": "2022-04", 
+    "twitterUrl": "https://twitter.com/CrescentHub",
+    "mediumUrl": "https://crescentnetwork.medium.com/",
+    "airdropBlogUrl": "https://crescentnetwork.medium.com/crescent-token-distribution-926d90444a8b", 
+    "snapshotDate": "2022-01-01", 
+    "eligibleTokens": [
+        "ATOM"
+    ],
+    "eligibilityCriteria": [
+    {
+        "description": "ATOM stakers"
+    }
+    ]
+}

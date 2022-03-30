@@ -1,0 +1,40 @@
+{
+    "project": "AssetMantle",
+    "projectWebsiteUrl": "https://assetmantle.one/",
+    "projectDescription": "Your one stop shop for NFTs. A community first platform for creators and collectors.",
+    "tokenTicker": "MNTL",
+    "tokenIcon": "https://pbs.twimg.com/profile_images/1493668790798020609/k1GwNXAT_400x400.jpg",
+    "airdropStartDate": "2022-03-15", 
+    "twitterUrl": "https://twitter.com/AssetMantle",
+    "discordUrl": "https://discord.gg/BSdBQ4495d",
+    "airdropBlogUrl": "https://blog.assetmantle.one/2022/03/15/mantledrop-explained/", 
+    "snapshotDate": "2022-02-15", 
+    "eligibleTokens": [
+        "OSMO",
+        "ATOM"
+    ],
+    "eligibilityCriteria": [
+    {
+        "description": "ATOM, XPRT, LUNA, CMDX, JUNO, STARS stakers"
+    },
+    {
+        "description": "Osmosis liquidity providers"
+    },
+    {
+        "description": "OpenSea NFT Community"
+    }
+    ],
+    "unanimousClaim": true,
+    "claimActions": [
+    {
+    "actionType": "plaintext",
+    "description": "Stake ATOM, XPRT, LUNA, CMDX, JUNO or STARS. Then enter your wallet addresses on the proect's dashboard to confirm participation. Send a magic transaction and then asnwer daily quiz to claim tokens.", 
+    "websiteURL": "https://airdrop.assetmantle.one/stakedrop"
+    },
+    {
+    "actionType": "plaintext",
+    "description": "For eligibile Osmosis Liquidity Providers. Claim, stake, vote on a governance proposal and create a social profile to unlock your airdrop.", 
+    "websiteURL": "https://airdrop.assetmantle.one/"
+    }
+    ]
+}

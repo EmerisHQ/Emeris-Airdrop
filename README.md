@@ -11,13 +11,13 @@ Submit a Pull Request for your airdrop and use this json template:
     "project": "Emeris",
     "projectWebsiteUrl": "https://app.emeris.com/",
     "projectDescription": "Short intro about project", // between 30-150 words
-    "chainName": "Cosmos Hub",
-    "chainID": "cosmoshub-4",
     "tokenTicker": "ATOM",
     "tokenIcon": "An SVG icon",
     "airdropStartDate": "2021-12-14", // please use the ISO 8601 standard. If unsure, please input Q1/H1 2022
 	    
     // Not required upon initial submission. Please fill out and re-submit pull request whenever you have the information ready
+    "chainName": "Cosmos Hub",
+    "chainID": "cosmoshub-4",
     "twitterUrl": "https://twitter.com/",
     "discordUrl": "https://discord.com/",
     "mediumUrl": "https://medium.com/",
@@ -76,7 +76,7 @@ Submit a Pull Request for your airdrop and use this json template:
     "unlockPercentage": "50"
     }
     ]
-},
+}
 
 ```
        

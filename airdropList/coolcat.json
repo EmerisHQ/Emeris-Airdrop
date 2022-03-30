@@ -1,0 +1,24 @@
+{
+    "project": "CoolCat",
+    "projectWebsiteUrl": "https://linktr.ee/coolcatchain",
+    "projectDescription": "CoolCat is a play-to-earn proof-of-stake blockchain. Coming to Cosmos in early 2022.", 
+    "tokenTicker": "CCAT",
+    "tokenIcon": "https://pbs.twimg.com/profile_images/1493904683718557697/pi7nvm-X_400x400.jpg",
+    "airdropStartDate": "H1 2022", 
+    "twitterUrl": "https://twitter.com/CoolCatChain",
+    "discordUrl": "https://discord.com/invite/mnyvNG9ejf",
+    "mediumUrl": "https://coolcatchain.medium.com/",
+    "airdropBlogUrl": "https://coolcatchain.medium.com/announcing-coolcat-a-cosmic-journey-8f8487615515", 
+    "snapshotDate": "Future Snapshot", 
+    "eligibleTokens": [
+        "OSMO",
+        "ATOM",
+        "HUAHUA",
+        "JUNO"
+    ],
+    "eligibilityCriteria": [
+    {
+        "description": "ATOM, OSMO, JUNO, HUAHUA stakers"
+    }
+    ]
+}

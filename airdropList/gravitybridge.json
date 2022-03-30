@@ -4,9 +4,10 @@
     "projectDescription": "Gravity Bridge is a decentralized Cosmos blockchain whose primary purpose is to secure the operation of bridges between blockchains. Gravity Bridge chain will act as neutral ethereum to cosmos bridge. Through IBC(Interblockchain communication), many different cosmos based projects can connect and use the bridge to access ERC20 assets, like dai or usdc, without having to operate the gravity orchestrator on their own chain. Gravity will be able to bring ERC20 assets from Ethereum into Cosmos, as well as Cosmos assets to Ethereum ERC20 representations. ATOM, and any other asset in the Cosmos ecosystem, will be able to trade on Uniswap and other Ethereum AMMs, and interact with Ethereum DeFi like any ERC20 token.",
     "chainName": "Gravity Brige",
     "chainID": "gravity-bridge-3",
+    "tokenIcon": "https://pbs.twimg.com/profile_images/1468693678134677504/SoecObPL_400x400.jpg",
     "tokenTicker": "GRAV",
     "tokenIcon": "https://raw.githubusercontent.com/Gravity-Bridge/Gravity-Docs/main/assets/Graviton-Blue.svg",
     "airdropStartDate": "H1 2022",
     "twitterUrl": "https://twitter.com/gravity_bridge?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
     "discordUrl": "https://discord.gg/d3DshmHpXA"
-},
+}
