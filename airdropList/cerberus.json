@@ -3,10 +3,11 @@
     "projectWebsiteUrl": "https://cerberus.zone/",
     "projectDescription": "Cerberus will be a community lead meme-coin that will allow the community to vote on various proposals on the future use of the coin. The community can gain value from the coin by staking Cerberus ($CRBRUS) with delegators and liquidity pools.", 
     "tokenTicker": "CRBRUS",
+    "tokenIcon": "https://pbs.twimg.com/profile_images/1491444718261186567/AUdZyrmO_400x400.png",
     "airdropStartDate": "H1 2022",
     "twitterUrl": "https://twitter.com/CerberusZone",
     "airdropBlogUrl": "https://www.cerberus.zone/faq.html", 
-    "snapshotDate": "Future snapshot", 
+    "snapshotDate": "2022-03-12", 
     "eligibleTokens": [
         "OSMO",
         "ATOM",
