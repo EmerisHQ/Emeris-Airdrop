@@ -9,7 +9,11 @@
     "discordUrl": "https://discord.com/invite/fs67WDr6NA/",
     "mediumUrl": "https://medium.com/@marbledaocosmos/",
     "airdropEndDate": "2022-04-16",
-    "snapshotDate": "2022-03-18","2022-03-23","2022-03-23",
+    "snapshotDate": [
+        "2022-03-18",
+        "2022-03-23",
+        "2022-03-23"
+    ],
     "eligibleTokens": [
         "MARBLE"
     ],
@@ -25,4 +29,4 @@
             "websiteURL": "https://app.marbledao.finance/block-airdrop"
         }
     ]
-},
+}
