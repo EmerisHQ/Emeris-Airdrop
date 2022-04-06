@@ -103,6 +103,7 @@ Please follow the following response format:
 Eligible - 200 status code:
 ```java
 { 
+"eligible": true,
 "denom": "ulum",
 "address": "lum13wqpfyc4rl5rqawg6f9xur6gdvgxfhm2ysl35f", 
  
@@ -126,9 +127,11 @@ Eligible - 200 status code:
 "claimed_action_deposit_lp": true 
 }
 ```
-Not eligible - 403 status code:
+Not eligible - 200 status code:
 ```
-<not found>
+{
+"eligible":false
+}
 ```
 
 **If you would like to list your Airdrop privately or have any questions about the submission process, please reach out to airdrop@tendermint.com.**
