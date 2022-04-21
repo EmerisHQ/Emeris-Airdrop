@@ -1,0 +1,26 @@
+{
+    "project": "Cheqd",
+    "projectWebsiteUrl": "https://www.cheqd.io/",
+    "projectDescription": "We’re building a secure network that enables individuals and organisations to fully control their personal data. It allows self-sovereign identity (SSI) companies to build and deliver secure solutions to you. Through our network, anyone can verify identities quickly and securely.", // between 30-150 words
+    "tokenTicker": "CHEQ",
+    "tokenIcon": "https://pbs.twimg.com/profile_images/1425121095624048645/qZgpOsZo_400x400.jpg",
+    "airdropStartDate": "2022-03-25", 
+    "chainName": "Cheqd",
+    "chainID": "cheqd-mainnet-1",
+    "twitterUrl": "https://twitter.com/cheqd_io",
+    "mediumUrl": "https://blog.cheqd.io/",
+    "airdropBlogUrl": "https://support.cheqd.io/support/solutions/articles/101000384269-what-is-mission-two-of-the-cheqd-community-airdrop", 
+    "snapshotDate": "2022-03-10", 
+	    
+    // TokenTicker of addresses for eligibility checking 	
+    "eligibleTokens": [        
+        "ATOM",
+        "OSMO",
+        "JUNO"
+    ],
+    "eligibilityCriteria": [
+    {
+        "description": "Stakers who staked at least 10 ATOM, 20 JUNO or 20 OSMO"
+    }
+    ]
+}
