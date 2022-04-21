@@ -1,72 +1,12 @@
 {
-    // GENERAL PROJECT INFORMATION
-    // Required upon initial submission
-    "project": "Emeris",
-    "projectWebsiteUrl": "https://app.emeris.com/",
-    "projectDescription": "Short intro about project", // between 30-150 words
-    "tokenTicker": "ATOM",
-    "tokenIcon": "An SVG icon",
-    "airdropStartDate": "2021-12-14", // please use the ISO 8601 standard. If unsure, please input Q1/H1 2022
-	    
-    // Not required upon initial submission. Please fill out and re-submit pull request whenever you have the information ready
-    "chainName": "Cosmos Hub",
-    "chainID": "cosmoshub-4",
-    "twitterUrl": "https://twitter.com/",
-    "discordUrl": "https://discord.com/",
-    "mediumUrl": "https://medium.com/",
-    "airdropBlogUrl": "<url>", //link to e.g your Medium blog post that outlines the Airdrop details
-    "airdropEndDate": "2022-06",// please use the ISO 8601 standard 
-	    
-    // AIRDROP ELIGIBILITY INFOMRATION
-    "snapshotDate": "2021-09-21", // please use the ISO 8601 standard 
-	    
-    // TokenTicker of addresses for eligibility checking 	
-    "eligibleTokens": [
-        "OSMO",
-        "ATOM"
-    ],
-	    
-    // Plaintext to be displayed on Emeris’s Airdrop Details page
-    "eligibilityCriteria": [
-    {
-        "description": "ATOM stakers"
-    },
-    {
-        "description": "OSMO liquidity providers"
-    }
-    ],
-	
-    // Endpoint to display the user's eligibility status on Emeris. 
-    // Refer to Eligibility Checking Endpoint section in ReadMe for required response formatting
-    "eligibilityCheckEndpoint": "https://eligibilitycheck/<address>",
-	
-    // AIRDROP CLAIM PROCESS
-    /* Does your airdrop require unanimous claim action? 
-       True = Multiple actions must be completed in order to unlock airdrop. 
-       False = each action unlocks a certain percentage of the airdrop */
-    "unanimousClaim": true,
-	
-    // Actions required to claim the Airdrop
-    /* actionType (required): autodrop = airdrop will be automatically sent to users, OR
-                              directClaim = users can directly claim the airdrop, OR
-                              plaintext = for airdrops that require actions other than autodrop or directClaim		      
-       actionOrder (optional): include when claim actions have to follow a specific order
-       unlockPercentage (optional): include the percentage each action will unlock when unannimousClaim is false */
-	    
-    "claimActions": [
-    {
-    "actionOrder": "1",
-    "actionType": "directClaim",
-    "description": "Claim Airdrop", // freetype, less than 15 words,
-    "cosmosSDKMessageType":"/publicawesome.stargaze.claim.v1beta1.MsgInitialClaim", // please include exact Message Type and other required information for directClaim transactions
-    "websiteURL": "website to claim airdrop",
-    "unlockPercentage": "50"
-    },
-    {
-    "actionOrder": "2",
-    "actionType": "plaintext",
-    "description": "Stake some airdrop", // freetype, less than 15 words   
-    "unlockPercentage": "50"
-    }
-    ]
+    "project": "Quicksilver Protocol",
+    "projectWebsiteUrl": "https://quicksilver.zone/",
+    "projectDescription": "Quicksilver is a permissionless, sovereign Cosmos SDK zone providing liquid staking for the entire Cosmos Ecosystem. Users are issued a voucher, qASSET, representative of their native bonded asset upon delegation, which can then be used in DeFi protocols. Quicksilver can scale seamlessly to any IBC-connected chain, and users participating in the protocol will be able to stake with any validator of their choosing (no whitelisted validator set), as well as retain their voting rights through a governance by proxy model.",
+    "tokenTicker": "QCK",
+    "tokenIcon": "https://pbs.twimg.com/profile_images/1488798003473358848/V2gPwVeO_400x400.jpg",
+    "airdropStartDate": "H2 2022", 
+    "twitterUrl": "https://twitter.com/quicksilverzone",
+    "discordUrl": "https://discord.com/invite/xrSmYMDVrQ",
+    "mediumUrl": "https://medium.com/quicksilverzone"
+   
 }
