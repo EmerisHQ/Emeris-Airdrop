@@ -1,0 +1,21 @@
+{
+    "project": "JACKAL",
+    "projectWebsiteUrl": "https://jackaldao.com/",
+    "projectDescription": "JACKAL is a decentralized autonomous organization in the Cosmos ecosystem that governs WEB3 privacy infrastructure and cyber security solutions.", 
+    "tokenTicker": "JKL",
+    "tokenIcon": "https://pbs.twimg.com/profile_images/1499184924213006338/PAFQrBfz_400x400.jpg",
+    "airdropStartDate": "H1 2022", 
+    "twitterUrl": "https://twitter.com/JACKAL_DAO",
+    "discordUrl": "https://discord.com/invite/5GKym3p6rj",
+    "snapshotDate": "2022-04-09",
+    "eligibleTokens": [
+        "SCRT",
+        "JUNO",
+        "ATOM"
+    ],
+    "eligibilityCriteria": [
+    {
+        "description": "Stakers who staked at least 20 SCRT, 10 JUNO or 10 ATOM"
+    }
+    ]
+}
