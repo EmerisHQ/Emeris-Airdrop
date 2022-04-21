@@ -1,0 +1,21 @@
+{
+    "project": "Rango Exchange",
+    "projectWebsiteUrl": "https://rango.exchange/",
+    "projectDescription": "Rango is the first and most intuitive UX that integrates multiple aggregators (e.g. 1Inch) with multiple X-Chain solutions (e.g. Thorchain) to provide best liquidity and optimized path in a secure and easy-to-use solution", 
+    "tokenTicker": "RANGO",
+    "tokenIcon": "https://pbs.twimg.com/profile_images/1479738693111922689/6r2FDveP_400x400.jpg",
+    "airdropStartDate": "H1 2022", // please use the ISO 8601 standard. If unsure, please input Q1/H1 2022
+    "twitterUrl": "https://twitter.com/RangoExchange",
+    "mediumUrl": "https://medium.com/@rangoexchange",
+    "airdropBlogUrl": "https://medium.com/@rangoexchange/airdrop-campaigns-more-more-is-coming-2c9f1f4a59f4",
+    "eligibleTokens": [
+        "LUNA",
+        "ATOM",
+        "JUNO"
+    ],
+    "eligibilityCriteria": [
+    {
+        "description": "LUNA, ATOM, JUNO stakers that trade at least $200 with Rango"
+    }
+    ]
+}
